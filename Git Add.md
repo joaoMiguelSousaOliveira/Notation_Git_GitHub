@@ -57,6 +57,7 @@ git commit -m "alteração_do_arquivo"
 
 ### 8. Git Log
 **`Retorna todas as versões do projeto`**
+
 Todo commit possui um Hash (código referente ao commit)
 HEAD indica em qual versão do projeto estamos
 ```Git
@@ -68,12 +69,22 @@ q
 ```  
 
 ### 9. Git Checkout
-Volta o projeto para uma versão anterior
-Para isso, digite os seis primeiros dígitos do hash do commit que deseja voltar
+**`Volta o projeto para uma versão anterior`**
+
+Para isso, digite os seis primeiros dígitos do hash do commit que deseja voltar.
+Antes de dar um chekout verificar se há algo para commitar e commite
 
 ```Git
 git chekcout digitos_hash
 ```  
+
+### 10. Git Checkout Master
+Volta para a última versão do projeto
+
+```Git
+git chekcout master
+```  
+
 
 Para isso digite o comando 
     git init
