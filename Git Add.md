@@ -79,12 +79,22 @@ git chekcout digitos_hash
 ```  
 
 ### 10. Git Checkout Master
-Volta para a última versão do projeto
+**`Volta para a última versão do projeto`**
 
 ```Git
 git chekcout master
 ```  
 
+### Branch
+
+**`Ramificação do projeto principal`** 
+
+Utilizado apra trabalho em equipe - cada desenvolvedor possui a sua branch do projeto
+Toda vez que for ciar uma nova funcionalidade criar uma nova branch 
+
+```Git
+git branch nome_do_branch
+```  
 
 Para isso digite o comando 
     git init
