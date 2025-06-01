@@ -48,7 +48,7 @@ git config --global user.email seu_email
 git commit -m "mensagem_descritiva_da_alteração"
 ```    
 ### Subir uma alteração
-Sempre que for subir uma alteração, é necessário utilizar um git add antes do commit.
+**`Sempre que for subir uma alteração, é necessário utilizar um git add antes do commit`**
 
 ```Git
 git add .
