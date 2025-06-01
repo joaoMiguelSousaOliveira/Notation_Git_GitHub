@@ -47,7 +47,7 @@ git config --global user.email seu_email
 ```Git
 git commit -m "mensagem_descritiva_da_alteração"
 ```    
-### Subir uma alteração
+### 7. Subir uma alteração
 **`Sempre que for subir uma alteração, é necessário utilizar um git add antes do commit`**
 
 ```Git
@@ -55,9 +55,27 @@ git add .
 git commit -m "alteração_do_arquivo"
 ```    
 
+### 8. Git Log
+**`Retorna todas as versões do projeto`**
+Todo commit possui um Hash (código referente ao commit)
+HEAD indica em qual versão do projeto estamos
+```Git
+git log
+```  
+Para sair do git log
+```Git
+q
+```  
 
+### 9. Git Checkout
+Volta o projeto para uma versão anterior
+Para isso, digite os seis primeiros dígitos do hash do commit que deseja voltar
 
+```Git
+git chekcout digitos_hash
+```  
 
+Para isso digite o comando 
     git init
     git add .
     git commit -m "nome da alteração"
