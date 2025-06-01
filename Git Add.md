@@ -89,7 +89,8 @@ git chekcout master
 
 **`Ramificação do projeto principal`** 
 
-Utilizado apra trabalho em equipe - cada desenvolvedor possui a sua branch do projeto
+Utilizado para trabalho em equipe - **cada desenvolvedor possui a sua branch do projeto**
+
 Toda vez que for ciar uma nova funcionalidade criar uma nova branch 
 
 ```Git
@@ -103,6 +104,25 @@ Digite o nome do branch que deseja ir
 ```Git
 git checkout nome_do_branch
 ```  
+
+**`Altera o nome de um branch`**
+Recomenda-se que o branch principal seja chamado de **main**
+
+Para mudar o nome de uma branch, deve estar nele e digitar
+
+```Git
+git branch -m novo_nome
+``` 
+
+### Merge
+
+**`Une as Branchs na Branchs principal (main)`**
+Deve estar na **branch principal (main)** e utilizar
+
+```Git
+git merge nome_do_branch_que_deseja_unir
+``` 
+
 
 Para isso digite o comando 
     git init
