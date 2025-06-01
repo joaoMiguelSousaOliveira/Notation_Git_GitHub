@@ -17,6 +17,7 @@ git status
 ```  
 
 ### 4. Git add
+Lembre de control + s antes do git add
 **`Adiciona os arquivos na área de Stage`**
 
 **`Para adicionar todos arquivos no Stage`**
