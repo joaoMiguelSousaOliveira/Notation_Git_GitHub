@@ -96,6 +96,14 @@ Toda vez que for ciar uma nova funcionalidade criar uma nova branch
 git branch nome_do_branch
 ```  
 
+**`Altera para um branch criado`**
+
+Digite o nome do branch que deseja ir
+
+```Git
+git checkout nome_do_branch
+```  
+
 Para isso digite o comando 
     git init
     git add .
