@@ -24,6 +24,12 @@ git push -u origin main
 ### 4. Logar com o GitHub
 **`Gere um token para logar`**
 
+## Como enviar conteudos de uma branch secundária para o GitHub
+**`Após usar o add e o commit estando na branch, deverá utilizar o comando`**
+```Git
+git push origin nome_da_branch
+```  
+
 ## Como pegar um repositório do GitHub
 
 ### 1. Git Clone
@@ -32,4 +38,5 @@ Crie uma pasta no seu computador e digite no terminal o caminho
 ```Git
 git clone url_do_repositorio
 ```  
+
 
