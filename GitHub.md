@@ -23,3 +23,13 @@ git push -u origin main
 
 ### 4. Logar com o GitHub
 **`Gere um token para logar`**
+
+## Como pegar um repositório do GitHub
+
+### 1. Git Clone
+**`Gera um clone do repositório na sua máquina`**
+Crie uma pasta no seu computador e digite no terminal o caminho
+```Git
+git clone url_do_repositorio
+```  
+
