@@ -123,16 +123,3 @@ Deve estar na **branch principal (main)** e utilizar
 ```Git
 git merge nome_do_branch_que_deseja_unir
 ``` 
-
-
-Para isso digite o comando 
-    git init
-    git add .
-    git commit -m "nome da alteração"
-    git branch -M main
-    git remote add origin 'link do repositório'
-    git push (envia)
-    git pull (puxa do github)
-
-Como criar um arquivo que não vai ser enviado pelo git
-    .gitignore
