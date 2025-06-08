@@ -115,6 +115,28 @@ Para mudar o nome de uma branch, deve estar nele e digitar
 git branch -m novo_nome
 ``` 
 
+
+### Pull request
+**`Recomenda-se utilizar o merge por meio do pull request`**
+
+O **pull request** é utilizado para evitar conflitos no código da **main**. 
+
+Na prática, ele atua como uma **validação**, que somente após aceita, o código de uma **branch secundária** poderá sofrer o **merge**. Então, ao dar um **push** em uma branch secundária, se o **pull request estiver habilitado**, pode ir em **Pull requests** e em **New pull request** e **ecolher qual branch queremos fazer o merge** (**main->exemplo**). **No pŕoprio pull request, mostra o que o merge da branch selecioanda e da branch que commitamos irá alterar**. O request apresenta os possíveis **`conflitos antes mesmo do merge`**. Os pulls requests podem necessitar da **`aprovação de 1 ou mais desenvolvedores para o merge`**.
+
+**`Como habilitar a opção de pull request`**
+
+```
+No repositório:
+Settings
+Branches
+Add branch ruleset
+Escolha o nome da ruleset
+Require a pull request before merging
+Selecione o número de aprovações que desejar
+Require approval of the most recent reviewable push
+Create
+``` 
+
 ### Merge
 
 **`Une as Branchs na Branchs principal (main)`**
@@ -122,4 +144,5 @@ Deve estar na **branch principal (main)** e utilizar
 
 ```Git
 git merge nome_do_branch_que_deseja_unir
-``` 
+```
+

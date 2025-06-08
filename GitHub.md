@@ -32,11 +32,25 @@ git push origin nome_da_branch
 
 ## Como pegar um repositório do GitHub
 
-### 1. Git Clone
+### Git Clone
 **`Gera um clone do repositório na sua máquina`**
+
 Crie uma pasta no seu computador e digite no terminal o caminho
 ```Git
 git clone url_do_repositorio
+```  
+
+## Criar uma cópia de um repositório para sua conta 
+
+### Fork
+**`Cria uma um repositório de outro projeto na sua conta`**
+
+Utilizado para projetos de open sorce. 
+O fork copia todos os commits e branchs.
+```
+No repositório do GitHub que deseja dar o fork
+Fork
+Create Fork
 ```  
 
 
