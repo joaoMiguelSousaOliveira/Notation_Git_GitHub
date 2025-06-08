@@ -146,3 +146,12 @@ Deve estar na **branch principal (main)** e utilizar
 git merge nome_do_branch_que_deseja_unir
 ```
 
+### Git ignore
+
+**`Ignora arquivos selecionados`**
+
+Crie um arquivo **`.gitignore`** contendo os nomes dos arquivos que deseja que o git ignore (**eles não irão subir pro git ou github**)
+```
+Crie um arquivo chamado .gitgnore
+Insira os nomes dos arquivos que deseja ignorar
+``` 
